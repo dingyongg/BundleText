@@ -12,12 +12,7 @@
 @implementation VideoCutToolTwo
 
 + (void)cutVideoWithVideoPathURL:(NSURL *)videoPathURL andSaveToPath:(NSString *)path{
-    NSError *error = nil;
-    CGSize renderSize = CGSizeMake(0, 0);
-    
-    
-    
-    
+
 }
 
 @end
