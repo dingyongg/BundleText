@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F663C291B01FCFA00AF42E2 /* VideoCutTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F663C281B01FCFA00AF42E2 /* VideoCutTool.m */; };
+		6F663C381B021C4700AF42E2 /* VideoCutToolTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F663C371B021C4700AF42E2 /* VideoCutToolTwo.m */; };
 		6F66C8FD1AFDCD6A00DD859E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66C8FC1AFDCD6A00DD859E /* main.m */; };
 		6F66C9001AFDCD6A00DD859E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66C8FF1AFDCD6A00DD859E /* AppDelegate.m */; };
 		6F66C9031AFDCD6A00DD859E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66C9021AFDCD6A00DD859E /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		6F66C9081AFDCD6A00DD859E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F66C9071AFDCD6A00DD859E /* Images.xcassets */; };
 		6F66C90B1AFDCD6A00DD859E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66C9091AFDCD6A00DD859E /* LaunchScreen.xib */; };
 		6F66C9171AFDCD6A00DD859E /* BundleTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66C9161AFDCD6A00DD859E /* BundleTextTests.m */; };
+		6F679FF31B02DDD2006D38FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F679FF21B02DDD2006D38FB /* AVFoundation.framework */; };
+		6F7015351B046E8B008A2414 /* TimeCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7015341B046E8B008A2414 /* TimeCounterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F663C271B01FCFA00AF42E2 /* VideoCutTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCutTool.h; sourceTree = "<group>"; };
+		6F663C281B01FCFA00AF42E2 /* VideoCutTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCutTool.m; sourceTree = "<group>"; };
+		6F663C361B021C4700AF42E2 /* VideoCutToolTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCutToolTwo.h; sourceTree = "<group>"; };
+		6F663C371B021C4700AF42E2 /* VideoCutToolTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCutToolTwo.m; sourceTree = "<group>"; };
 		6F66C8F71AFDCD6A00DD859E /* BundleText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundleText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F66C8FB1AFDCD6A00DD859E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F66C8FC1AFDCD6A00DD859E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,9 @@
 		6F66C9101AFDCD6A00DD859E /* BundleTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BundleTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F66C9151AFDCD6A00DD859E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F66C9161AFDCD6A00DD859E /* BundleTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleTextTests.m; sourceTree = "<group>"; };
+		6F679FF21B02DDD2006D38FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F7015331B046E8B008A2414 /* TimeCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCounterViewController.h; sourceTree = "<group>"; };
+		6F7015341B046E8B008A2414 /* TimeCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCounterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F679FF31B02DDD2006D38FB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		6F66C8EE1AFDCD6A00DD859E = {
 			isa = PBXGroup;
 			children = (
+				6F679FF21B02DDD2006D38FB /* AVFoundation.framework */,
 				6F66C8F91AFDCD6A00DD859E /* BundleText */,
 				6F66C9131AFDCD6A00DD859E /* BundleTextTests */,
 				6F66C8F81AFDCD6A00DD859E /* Products */,
@@ -85,6 +98,12 @@
 				6F66C8FF1AFDCD6A00DD859E /* AppDelegate.m */,
 				6F66C9011AFDCD6A00DD859E /* ViewController.h */,
 				6F66C9021AFDCD6A00DD859E /* ViewController.m */,
+				6F663C271B01FCFA00AF42E2 /* VideoCutTool.h */,
+				6F663C281B01FCFA00AF42E2 /* VideoCutTool.m */,
+				6F663C361B021C4700AF42E2 /* VideoCutToolTwo.h */,
+				6F663C371B021C4700AF42E2 /* VideoCutToolTwo.m */,
+				6F7015331B046E8B008A2414 /* TimeCounterViewController.h */,
+				6F7015341B046E8B008A2414 /* TimeCounterViewController.m */,
 				6F66C9041AFDCD6A00DD859E /* Main.storyboard */,
 				6F66C9071AFDCD6A00DD859E /* Images.xcassets */,
 				6F66C9091AFDCD6A00DD859E /* LaunchScreen.xib */,
@@ -221,6 +240,9 @@
 			files = (
 				6F66C9031AFDCD6A00DD859E /* ViewController.m in Sources */,
 				6F66C9001AFDCD6A00DD859E /* AppDelegate.m in Sources */,
+				6F7015351B046E8B008A2414 /* TimeCounterViewController.m in Sources */,
+				6F663C291B01FCFA00AF42E2 /* VideoCutTool.m in Sources */,
+				6F663C381B021C4700AF42E2 /* VideoCutToolTwo.m in Sources */,
 				6F66C8FD1AFDCD6A00DD859E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BundleText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BundleText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +442,7 @@
 				6F66C91C1AFDCD6A00DD859E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F66C91D1AFDCD6A00DD859E /* Build configuration list for PBXNativeTarget "BundleTextTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				6F66C91F1AFDCD6A00DD859E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
